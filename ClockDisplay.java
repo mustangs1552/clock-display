@@ -34,9 +34,9 @@ public class ClockDisplay
      * creates a new clock set at the time specified by the 
      * parameters.
      */
-    public ClockDisplay(int hour, int minute)
+    public ClockDisplay(int hour, int minute, boolean isTwelveHr)
     {
-        hours = new NumberDisplay(24);
+        hours = new NumberDisplay((isTwelveHr) ? 13 : 24);
         minutes = new NumberDisplay(60);
         setTime(hour, minute);
     }
