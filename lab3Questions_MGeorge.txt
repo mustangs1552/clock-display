@@ -1,0 +1,110 @@
+Matthew George
+9/28/15
+Week 3 Lab
+
+2.12-
+	Integer
+	Object Class named Student
+	Object Class named Server								
+2.13-
+	alive
+	tutor
+	game
+2.14-
+	representative
+	host
+	tutor
+	game
+2.17- Private int status
+2.21-
+	public Pet(String petsName)
+	{
+		name = petsName;
+	}
+2.22- public void Date(String month, int day, int year)
+2.24- "What is the balance?"
+2.26-
+	public int getTotal()
+	{
+		return total;
+	}
+2.27- No return value error
+2.29-No, they have void in their headers
+2.44- 
+	public void TicketMachine(int cost)
+{
+	price = cost;
+}
+public void TicketMachine()
+{
+	price = 5;
+}
+2.47- It will include the number your comparing it to.
+2.49- Toggling whether or not they were visible, yes.
+2.50- 2.8 adjust the balance and checks to see if enough money was put in to get ticket.
+2.51- It will still compile, but, it will print a ticket regardless of the amount of money you put in.
+2.52- No, it will only reduce balance by price when price is less than balance.
+2.54- int saving = price * discount;
+2.55- int mean = total / count;
+2.56-
+	if(price > budget)
+	{
+		System.out.println("Too expensive.");
+	}
+	else System.out.println("Just right.");
+2.60- missing void after public
+2.61- 
+	public int emptyMachine()
+	{
+		return total;
+		total = 0;
+	}
+2.64- getCode, String
+2.65- setCredits, creditValue, integer
+2.69- 
+	public void Person(String myName, int myAge)
+	{
+		name = myName;
+		age = myAge;
+	}
+2.71- 
+	public String getName()
+	{
+		return name;
+	}
+2.72-
+	public void setAge(int newAge)
+	{
+		age = newAge;
+	}
+2.78- return name + " " + id;
+2.80- 0, 500
+2.81- 500
+2.82- 1000
+
+Truth Tables
+	Yes, A will equal anything except B and vice versa. So long as they don't equal each other they will be or (||).
+
+Modulo Arithmetic
+	3.18- 0-4
+	3.19- 0 <= n < m
+	3.20- It adds one and then gets the remainder of the result and the limit.
+	3.21- Same, if statement is just longer and easier to follow.
+		value++;
+		if(value >= limit) value = 0;
+
+Clock Display and Number Display
+	3.23- Number variables always start at 0 until asigned.
+	3.26- public void Editor(String file, int value)
+	3.28- It allows you to asign your own starting time by taking the parameters and asigning them to the proper variable.
+	3.29- SetTime() calls updateDisplay() and the second one allows you to set your own time while the first is only the default.
+
+Syntax pattern
+3.30-
+	p1.print("readme.txt", true);
+	p1.print("car.png", false);
+	int num = p1.getStatus(5);
+	int num = p1.getStatus(100);
+
+12-hour Clock
+3.32- Making it work as a 24-hour clock is easier and better because it is less lines of code, less confusing, and easier to figure out if it's am or pm.
