@@ -56,8 +56,9 @@ public void TicketMachine()
 2.61- 
 	public int emptyMachine()
 	{
-		return total;
+		int temp = total;
 		total = 0;
+		return total;
 	}
 2.64- getCode, String
 2.65- setCredits, creditValue, integer
